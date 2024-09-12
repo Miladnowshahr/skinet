@@ -1,0 +1,8 @@
+services:
+  sql:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - ACCEPT_EULA="1"
+      - MSSQL_SA_PASSWORD:"3252179Mn!"
+    ports:
+      - "1433:1433"
